@@ -1,0 +1,112 @@
+.mp-more-icon{
+	cursor: pointer;
+	font-size: 22px;
+}
+
+.mp_gallery_wrap{
+	width: 300px;
+	margin: 20px 0;
+	overflow: hidden;
+	float: left;
+	margin-right: 10px;
+	clear: left;
+	border: 1px solid #999;
+	padding: 2px;
+}
+
+.mp_gallery_viewport{
+	height: 440px;
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+
+.mp_gallery_image{
+	height: 400px;
+	font-size: 0;
+	line-height: 0;
+}
+
+.mp_gallery_image img{
+	font-size: 0;
+	line-height: 0;
+	height: 400px;
+	width: 100%;
+}
+
+.mp_gallery_title{
+	height: 40px;
+	width: 100%;
+	line-height: 40px;
+	color: #fff;
+	background: rgba(0, 0, 0, 0.7);
+}
+
+.mp_gallery_title span{
+	display: block;
+	padding: 0 10px;
+}
+
+.mp_image_collection{
+	height: 70px;
+	overflow: hidden;
+	position: relative;
+	border-top: 1px solid #999;
+	padding-top: 2px;
+}
+
+.mp_image_list{
+	margin: 0 20px;
+	overflow: hidden;
+	height: 70px;
+}
+
+body .mp_image_collection ul{
+	overflow: hidden;
+	margin: 0;
+}
+
+.mp_image_collection ul, .mp_image_collection ul li{
+	padding: 0 !important;
+	list-style-type: none;
+}
+
+.mp_image_collection ul li{
+	float: left;
+	cursor: pointer;
+	margin: 0 !important;
+}
+
+.mp_control_right{
+	width:20px;
+	line-height: 70px;
+	text-align: center;
+	font-size: 20px;
+	float: right;
+	cursor: pointer;
+}
+
+.mp_control_left{
+	width:20px;
+	line-height: 70px;
+	text-align: center;
+	font-size: 20px;
+	float: left;
+	cursor: pointer;
+}
+
+.mp_image_collection ul li img{
+	width: 70px;
+	height: 70px;
+}
+
+.mp_image_collection ul li a{
+	text-decoration: none;
+}
+
+.mp_hide{
+	display: none !important;
+}
+
+.mp-icon{
+	width: 10px;
+}
